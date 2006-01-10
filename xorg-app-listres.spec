@@ -1,12 +1,12 @@
 Summary:	listres application
 Summary(pl):	Aplikacja listres
 Name:		xorg-app-listres
-Version:	0.99.2
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/listres-%{version}.tar.bz2
-# Source0-md5:	96263a4b8170e502d3a94f1dda776240
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/listres-%{version}.tar.bz2
+# Source0-md5:	827a1ac5adf9aadd0c13b54a897e297b
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -44,6 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
