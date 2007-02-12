@@ -1,5 +1,5 @@
 Summary:	listres application
-Summary(pl):	Aplikacja listres
+Summary(pl.UTF-8):   Aplikacja listres
 Name:		xorg-app-listres
 Version:	1.0.1
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 listres application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja listres.
 
 %prep
