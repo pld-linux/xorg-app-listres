@@ -1,5 +1,5 @@
 Summary:	listres application
-Summary(pl.UTF-8):   Aplikacja listres
+Summary(pl.UTF-8):	Aplikacja listres
 Name:		xorg-app-listres
 Version:	1.0.1
 Release:	1
