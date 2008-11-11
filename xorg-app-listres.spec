@@ -2,11 +2,12 @@ Summary:	listres application - list resources in widgets
 Summary(pl.UTF-8):	Aplikacja listres - lista zasobów w widgetach
 Name:		xorg-app-listres
 Version:	1.0.1
-Release:	3
+Release:	4
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/listres-%{version}.tar.bz2
 # Source0-md5:	827a1ac5adf9aadd0c13b54a897e297b
+Patch0:		%{name}-xaw.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -31,6 +32,7 @@ dwukolumnowa lista nazw widgetów i ich hierarchii klas.
 
 %prep
 %setup -q -n listres-%{version}
+%patch0 -p1
 
 %build
 %{__aclocal}
